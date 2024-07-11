@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.seccion{
+  scroll-snap-align: center;    
+  justify-content:center; 
+  align-items: center; 
+  height: 100vh;  
+  overflow: hidden;
+  display:flex;
+  transition-duration: 2s;
+ } 
+ .principal{
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  
+  display:grid;
+  overflow-y: scroll; 
+  overscroll-behavior-y: contain;       
+}
+.container{  
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  
+  /*display:grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));  
+  top: 100px;*/
+  max-width: 100%;
+}
+.content1{  
+  display: flex;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+
+}
+.content2{
+  display: flex;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;    
+ 
+}
+.content3{
+  display: flex;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  
+}
+
+
+
+
+
+  
