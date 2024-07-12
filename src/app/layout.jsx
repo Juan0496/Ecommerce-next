@@ -1,7 +1,7 @@
 "use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import React ,{useState } from 'react'
+import React  from 'react'
 import {UserProvider} from '@auth0/nextjs-auth0/client'
 import Cabecera from "./componentes/cabecera";
 const inter = Inter({ subsets: ["latin"] });
@@ -73,7 +73,7 @@ return (
             </a>
           </div>
           <div className="flex mt-4 justify-center items-end sm:mt-0 ">
-            <span className="text-sm text-gray-500 sm:text-end dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
+            <span className="text-sm text-gray-500 sm:text-end dark:text-gray-400">© 2024 <a href="" className="hover:underline">Juan Moreno</a>
             </span>
           </div>
         </div>       
