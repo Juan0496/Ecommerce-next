@@ -1,5 +1,5 @@
 {
-  "name": "tiendajj-next",  
+  "name": "tiendajj-next",
   "type": "module",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.5.0",
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
     "core-js": "^3.37.1",
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
