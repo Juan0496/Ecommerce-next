@@ -3,55 +3,37 @@
 @tailwind utilities;
 
 
-.seccion{
-  scroll-snap-align: center;    
-  justify-content:center; 
-  align-items: center; 
-  height: 100vh;  
-  overflow: hidden;
-  display:flex;
-  transition-duration: 2s;
- } 
+
  .principal{
   position: relative;
   height: 85vh;
-  width: 100%;
-  
+  width: 100%;  
   display:grid;
   overflow-y: scroll; 
-  overscroll-behavior-y: contain;       
+  overscroll-behavior-y: contain;     
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+  
 }
 .container{  
   position: relative;
   height: 85vh;
   width: 100%;
-  
+  object-fit: contain;
   /*display:grid;
   grid-template-rows: repeat(2, minmax(0, 1fr));  
   top: 100px;*/
   max-width: 100%;
 }
-.content1{  
+.content{  
   display: flex;
   object-fit: cover;
   position: absolute;
   width: 100%;
 
-}
-.content2{
-  display: flex;
-  object-fit: cover;
-  position: absolute;
-  width: 100%;    
- 
-}
-.content3{
-  display: flex;
-  object-fit: cover;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  
 }
 
 

@@ -49,7 +49,7 @@ return(
               </div>         
               )})}
   </div> 
-  <div>
+  <div className="flex justify-center md:mt-15 mt-10">
     <Paginacion paginaActual = {pag} conteoItems={numItems} tamanoPagina={tamanioPag}>                    
     </Paginacion>
   </div>  
