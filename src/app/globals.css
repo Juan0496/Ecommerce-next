@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
  .principal{
   position: relative;
   height: 85vh;
